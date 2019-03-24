@@ -1,0 +1,27 @@
+{
+  "name": "instant-cli-resume",
+  "version": "1.0.0",
+  "description": "Get a CLI résumé from JSON file",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/instant-cli-resume.git",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn lint && yarn format",
+    "lint": "standard --fix",
+    "format": "prettier-standard './*.js'"
+  },
+  "devDependencies": {
+    "prettier-standard": "^9.1.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2"
+  },
+  "standard": {
+    "env": {
+      "node": true
+    }
+  }
+}
