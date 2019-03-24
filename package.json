@@ -1,7 +1,7 @@
 {
   "name": "instant-cli-resume",
   "version": "1.0.0",
-  "description": "Get a CLI résumé from JSON file",
+  "description": "Get a CLI résumé from an JSON file",
   "main": "index.js",
   "repository": "https://github.com/tiaanduplessis/instant-cli-resume.git",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",

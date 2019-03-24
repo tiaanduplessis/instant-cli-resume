@@ -6,7 +6,7 @@
 [![package license](https://img.shields.io/npm/l/instant-cli-resume.svg?style=flat-square)](https://npmjs.org/package/instant-cli-resume)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-> Get a CLI résumé from JSON file
+> Get a CLI résumé from an JSON file
 
 ## Table of Contents
 
