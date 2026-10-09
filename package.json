@@ -7,6 +7,7 @@
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "license": "MIT",
   "scripts": {
+    "test:behavior": "node index.test.js",
     "test": "yarn lint && yarn format",
     "lint": "standard --fix",
     "format": "prettier-standard './*.js'"
