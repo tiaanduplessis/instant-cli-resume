@@ -33,6 +33,17 @@ const instantResume = require('instant-cli-resume')
 instantResume('./example.json', {greeting: `Hi, I'm Tiaan`})
 ```
 
+Choose `Exit` from the main menu to finish immediately. After viewing a section,
+choose `Back` to return to the main menu or `Exit` to finish. The exact `Exit`
+label is reserved for that menu action; section names such as `exit` or `EXIT`
+remain selectable.
+
+## Development
+
+`npm run test:behavior` checks the menu flow with owned temporary JSON files and
+guarded prompt and color providers. It does not open an interactive prompt or run
+the legacy formatting tools.
+
 ## Contribute
 
 1. Fork it and create your feature branch: `git checkout -b my-new-feature`

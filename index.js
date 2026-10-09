@@ -29,7 +29,7 @@ module.exports = function instantResume (
 
   function handler () {
     inquirer.prompt(prompt).then(({ answer }) => {
-      if (answer.toLowerCase() === 'Exit') {
+      if (answer === 'Exit') {
         return
       }
 
